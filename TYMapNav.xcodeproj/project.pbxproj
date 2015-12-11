@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E37BF191C1A8BA8004BB1C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E37BF181C1A8BA8004BB1C9 /* main.m */; };
+		5E37BF1C1C1A8BA8004BB1C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E37BF1B1C1A8BA8004BB1C9 /* AppDelegate.m */; };
+		5E37BF1F1C1A8BA8004BB1C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E37BF1E1C1A8BA8004BB1C9 /* ViewController.m */; };
+		5E37BF221C1A8BA8004BB1C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E37BF201C1A8BA8004BB1C9 /* Main.storyboard */; };
+		5E37BF241C1A8BA8004BB1C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E37BF231C1A8BA8004BB1C9 /* Assets.xcassets */; };
+		5E37BF271C1A8BA8004BB1C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E37BF251C1A8BA8004BB1C9 /* LaunchScreen.storyboard */; };
+		5E37BF321C1A8BA9004BB1C9 /* TYMapNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E37BF311C1A8BA9004BB1C9 /* TYMapNavTests.m */; };
+		5E37BF3D1C1A8BA9004BB1C9 /* TYMapNavUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E37BF3C1C1A8BA9004BB1C9 /* TYMapNavUITests.m */; };
+		5E37BF4D1C1A984D004BB1C9 /* TYMapNavSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E37BF4C1C1A984D004BB1C9 /* TYMapNavSheet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E37BF2E1C1A8BA9004BB1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E37BF0C1C1A8BA8004BB1C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E37BF131C1A8BA8004BB1C9;
+			remoteInfo = TYMapNav;
+		};
+		5E37BF391C1A8BA9004BB1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E37BF0C1C1A8BA8004BB1C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E37BF131C1A8BA8004BB1C9;
+			remoteInfo = TYMapNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E37BF141C1A8BA8004BB1C9 /* TYMapNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYMapNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E37BF181C1A8BA8004BB1C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E37BF1A1C1A8BA8004BB1C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E37BF1B1C1A8BA8004BB1C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E37BF1D1C1A8BA8004BB1C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E37BF1E1C1A8BA8004BB1C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E37BF211C1A8BA8004BB1C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E37BF231C1A8BA8004BB1C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E37BF261C1A8BA8004BB1C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E37BF281C1A8BA8004BB1C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E37BF2D1C1A8BA9004BB1C9 /* TYMapNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYMapNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E37BF311C1A8BA9004BB1C9 /* TYMapNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYMapNavTests.m; sourceTree = "<group>"; };
+		5E37BF331C1A8BA9004BB1C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E37BF381C1A8BA9004BB1C9 /* TYMapNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYMapNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E37BF3C1C1A8BA9004BB1C9 /* TYMapNavUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYMapNavUITests.m; sourceTree = "<group>"; };
+		5E37BF3E1C1A8BA9004BB1C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E37BF4B1C1A984D004BB1C9 /* TYMapNavSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMapNavSheet.h; sourceTree = "<group>"; };
+		5E37BF4C1C1A984D004BB1C9 /* TYMapNavSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMapNavSheet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E37BF111C1A8BA8004BB1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E37BF2A1C1A8BA9004BB1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E37BF351C1A8BA9004BB1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E37BF0B1C1A8BA8004BB1C9 = {
+			isa = PBXGroup;
+			children = (
+				5E37BF4A1C1A984D004BB1C9 /* TYMapNavSheet */,
+				5E37BF161C1A8BA8004BB1C9 /* TYMapNav */,
+				5E37BF301C1A8BA9004BB1C9 /* TYMapNavTests */,
+				5E37BF3B1C1A8BA9004BB1C9 /* TYMapNavUITests */,
+				5E37BF151C1A8BA8004BB1C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E37BF151C1A8BA8004BB1C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E37BF141C1A8BA8004BB1C9 /* TYMapNav.app */,
+				5E37BF2D1C1A8BA9004BB1C9 /* TYMapNavTests.xctest */,
+				5E37BF381C1A8BA9004BB1C9 /* TYMapNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E37BF161C1A8BA8004BB1C9 /* TYMapNav */ = {
+			isa = PBXGroup;
+			children = (
+				5E37BF1A1C1A8BA8004BB1C9 /* AppDelegate.h */,
+				5E37BF1B1C1A8BA8004BB1C9 /* AppDelegate.m */,
+				5E37BF1D1C1A8BA8004BB1C9 /* ViewController.h */,
+				5E37BF1E1C1A8BA8004BB1C9 /* ViewController.m */,
+				5E37BF201C1A8BA8004BB1C9 /* Main.storyboard */,
+				5E37BF231C1A8BA8004BB1C9 /* Assets.xcassets */,
+				5E37BF251C1A8BA8004BB1C9 /* LaunchScreen.storyboard */,
+				5E37BF281C1A8BA8004BB1C9 /* Info.plist */,
+				5E37BF171C1A8BA8004BB1C9 /* Supporting Files */,
+			);
+			path = TYMapNav;
+			sourceTree = "<group>";
+		};
+		5E37BF171C1A8BA8004BB1C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E37BF181C1A8BA8004BB1C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E37BF301C1A8BA9004BB1C9 /* TYMapNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E37BF311C1A8BA9004BB1C9 /* TYMapNavTests.m */,
+				5E37BF331C1A8BA9004BB1C9 /* Info.plist */,
+			);
+			path = TYMapNavTests;
+			sourceTree = "<group>";
+		};
+		5E37BF3B1C1A8BA9004BB1C9 /* TYMapNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E37BF3C1C1A8BA9004BB1C9 /* TYMapNavUITests.m */,
+				5E37BF3E1C1A8BA9004BB1C9 /* Info.plist */,
+			);
+			path = TYMapNavUITests;
+			sourceTree = "<group>";
+		};
+		5E37BF4A1C1A984D004BB1C9 /* TYMapNavSheet */ = {
+			isa = PBXGroup;
+			children = (
+				5E37BF4B1C1A984D004BB1C9 /* TYMapNavSheet.h */,
+				5E37BF4C1C1A984D004BB1C9 /* TYMapNavSheet.m */,
+			);
+			path = TYMapNavSheet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E37BF131C1A8BA8004BB1C9 /* TYMapNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E37BF411C1A8BA9004BB1C9 /* Build configuration list for PBXNativeTarget "TYMapNav" */;
+			buildPhases = (
+				5E37BF101C1A8BA8004BB1C9 /* Sources */,
+				5E37BF111C1A8BA8004BB1C9 /* Frameworks */,
+				5E37BF121C1A8BA8004BB1C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYMapNav;
+			productName = TYMapNav;
+			productReference = 5E37BF141C1A8BA8004BB1C9 /* TYMapNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E37BF2C1C1A8BA9004BB1C9 /* TYMapNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E37BF441C1A8BA9004BB1C9 /* Build configuration list for PBXNativeTarget "TYMapNavTests" */;
+			buildPhases = (
+				5E37BF291C1A8BA9004BB1C9 /* Sources */,
+				5E37BF2A1C1A8BA9004BB1C9 /* Frameworks */,
+				5E37BF2B1C1A8BA9004BB1C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E37BF2F1C1A8BA9004BB1C9 /* PBXTargetDependency */,
+			);
+			name = TYMapNavTests;
+			productName = TYMapNavTests;
+			productReference = 5E37BF2D1C1A8BA9004BB1C9 /* TYMapNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E37BF371C1A8BA9004BB1C9 /* TYMapNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E37BF471C1A8BA9004BB1C9 /* Build configuration list for PBXNativeTarget "TYMapNavUITests" */;
+			buildPhases = (
+				5E37BF341C1A8BA9004BB1C9 /* Sources */,
+				5E37BF351C1A8BA9004BB1C9 /* Frameworks */,
+				5E37BF361C1A8BA9004BB1C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E37BF3A1C1A8BA9004BB1C9 /* PBXTargetDependency */,
+			);
+			name = TYMapNavUITests;
+			productName = TYMapNavUITests;
+			productReference = 5E37BF381C1A8BA9004BB1C9 /* TYMapNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E37BF0C1C1A8BA8004BB1C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Tianyang;
+				TargetAttributes = {
+					5E37BF131C1A8BA8004BB1C9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					5E37BF2C1C1A8BA9004BB1C9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5E37BF131C1A8BA8004BB1C9;
+					};
+					5E37BF371C1A8BA9004BB1C9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5E37BF131C1A8BA8004BB1C9;
+					};
+				};
+			};
+			buildConfigurationList = 5E37BF0F1C1A8BA8004BB1C9 /* Build configuration list for PBXProject "TYMapNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E37BF0B1C1A8BA8004BB1C9;
+			productRefGroup = 5E37BF151C1A8BA8004BB1C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E37BF131C1A8BA8004BB1C9 /* TYMapNav */,
+				5E37BF2C1C1A8BA9004BB1C9 /* TYMapNavTests */,
+				5E37BF371C1A8BA9004BB1C9 /* TYMapNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E37BF121C1A8BA8004BB1C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E37BF271C1A8BA8004BB1C9 /* LaunchScreen.storyboard in Resources */,
+				5E37BF241C1A8BA8004BB1C9 /* Assets.xcassets in Resources */,
+				5E37BF221C1A8BA8004BB1C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E37BF2B1C1A8BA9004BB1C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E37BF361C1A8BA9004BB1C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E37BF101C1A8BA8004BB1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E37BF1F1C1A8BA8004BB1C9 /* ViewController.m in Sources */,
+				5E37BF1C1C1A8BA8004BB1C9 /* AppDelegate.m in Sources */,
+				5E37BF191C1A8BA8004BB1C9 /* main.m in Sources */,
+				5E37BF4D1C1A984D004BB1C9 /* TYMapNavSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E37BF291C1A8BA9004BB1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E37BF321C1A8BA9004BB1C9 /* TYMapNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E37BF341C1A8BA9004BB1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E37BF3D1C1A8BA9004BB1C9 /* TYMapNavUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E37BF2F1C1A8BA9004BB1C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E37BF131C1A8BA8004BB1C9 /* TYMapNav */;
+			targetProxy = 5E37BF2E1C1A8BA9004BB1C9 /* PBXContainerItemProxy */;
+		};
+		5E37BF3A1C1A8BA9004BB1C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E37BF131C1A8BA8004BB1C9 /* TYMapNav */;
+			targetProxy = 5E37BF391C1A8BA9004BB1C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E37BF201C1A8BA8004BB1C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E37BF211C1A8BA8004BB1C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E37BF251C1A8BA8004BB1C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E37BF261C1A8BA8004BB1C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E37BF3F1C1A8BA9004BB1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E37BF401C1A8BA9004BB1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E37BF421C1A8BA9004BB1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYMapNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYMapNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E37BF431C1A8BA9004BB1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYMapNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYMapNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E37BF451C1A8BA9004BB1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYMapNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYMapNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYMapNav.app/TYMapNav";
+			};
+			name = Debug;
+		};
+		5E37BF461C1A8BA9004BB1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYMapNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYMapNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYMapNav.app/TYMapNav";
+			};
+			name = Release;
+		};
+		5E37BF481C1A8BA9004BB1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYMapNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYMapNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYMapNav;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5E37BF491C1A8BA9004BB1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYMapNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYMapNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYMapNav;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E37BF0F1C1A8BA8004BB1C9 /* Build configuration list for PBXProject "TYMapNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E37BF3F1C1A8BA9004BB1C9 /* Debug */,
+				5E37BF401C1A8BA9004BB1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E37BF411C1A8BA9004BB1C9 /* Build configuration list for PBXNativeTarget "TYMapNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E37BF421C1A8BA9004BB1C9 /* Debug */,
+				5E37BF431C1A8BA9004BB1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E37BF441C1A8BA9004BB1C9 /* Build configuration list for PBXNativeTarget "TYMapNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E37BF451C1A8BA9004BB1C9 /* Debug */,
+				5E37BF461C1A8BA9004BB1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E37BF471C1A8BA9004BB1C9 /* Build configuration list for PBXNativeTarget "TYMapNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E37BF481C1A8BA9004BB1C9 /* Debug */,
+				5E37BF491C1A8BA9004BB1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E37BF0C1C1A8BA8004BB1C9 /* Project object */;
+}
