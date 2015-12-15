@@ -37,8 +37,6 @@
     
     [self.view addSubview:TYBtn];
 
-    
-    
 }
 
 -(void)BtnClick{
